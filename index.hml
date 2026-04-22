@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mokan.ai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #1f2937;
+        }
+        h1 { color: #111827; }
+        h2 { color: #374151; margin-top: 28px; }
+        code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; }
+        a { color: #2563eb; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Mokan.ai</h1>
+    <p><strong>Last updated:</strong> April 22, 2026</p>
+
+    <h2>1. Scope</h2>
+    <p>
+        This Privacy Policy describes how Mokan.ai (the “Extension”) processes data when the user
+        creates UI mockups, generates requirement text, and optionally connects third-party services
+        such as Trello and AI model providers.
+    </p>
+
+    <h2>2. Data Collection</h2>
+    <p>Mokan.ai does not sell personal data. Data is processed only to provide extension features requested by the user.</p>
+    <p>Depending on feature usage, the Extension may process:</p>
+    <ul>
+        <li>Active page context (URL, page title, and DOM-related metadata needed for mockup features).</li>
+        <li>User-created mockup content (widgets, layout metadata, screenshots, and related JSON model data).</li>
+        <li>Configuration data stored by the user (for example Trello token, selected AI model, and optional API key).</li>
+    </ul>
+
+    <h2>3. Use of Information</h2>
+    <p>Processed data is used exclusively to:</p>
+    <ul>
+        <li>Create, edit, and save mockups and requirement artifacts.</li>
+        <li>Generate or refine user stories and acceptance criteria through the AI model selected by the user.</li>
+        <li>Export or sync selected project artifacts to Trello when explicitly requested by the user.</li>
+    </ul>
+
+    <h2>4. Data Storage and Retention</h2>
+    <p>
+        The Extension stores configuration and workflow data in browser extension storage
+        (<code>chrome.storage</code>) to preserve settings and user progress.
+    </p>
+    <p>
+        Users can clear local extension data by removing the extension or resetting extension options.
+        Data sent to third-party services (e.g., Trello or AI providers) is then subject to those services’ own retention policies.
+    </p>
+
+    <h2>5. Third-Party Services and Data Transfers</h2>
+    <p>Mokan.ai communicates with third-party services only when the user enables and uses those features:</p>
+    <ul>
+        <li>
+            <strong>Trello (Atlassian):</strong> when saving/opening mockups, selected data (e.g., JSON model, screenshots, card metadata)
+            is sent to Trello APIs using user-provided credentials.
+        </li>
+        <li>
+            <strong>AI Model Provider selected by the user (e.g., Google Gemini):</strong>
+            prompts and relevant context data are sent to the selected model endpoint to generate requirement text.
+        </li>
+    </ul>
+    <p>
+        Please review third-party privacy policies:
+        <br>
+        - Atlassian/Trello: <a href="https://www.atlassian.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.atlassian.com/legal/privacy-policy</a>
+        <br>
+        - Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a>
+    </p>
+
+    <h2>6. API Usage, Model Selection, and Potential Costs</h2>
+    <p>
+        Mokan.ai allows the user to choose an AI model/API provider. Requests are sent to the selected model
+        according to the user configuration.
+    </p>
+    <p>
+        <strong>Important:</strong> depending on the selected API/model and the user’s provider account plan,
+        usage may incur charges. Any billing relationship exists directly between the user and the provider
+        (for example Google/AI Studio or related cloud billing account).
+    </p>
+
+    <h2>7. Security</h2>
+    <p>
+        Mokan.ai is designed to limit processing to what is required for requested features.
+        However, no internet transmission or third-party platform can be guaranteed as 100% secure.
+        Users should avoid sending sensitive information unless necessary for their workflow.
+    </p>
+
+    <h2>8. Children’s Privacy</h2>
+    <p>
+        The Extension is not directed to children under 13, and Mokan.ai does not knowingly collect personal data from children.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+        This Privacy Policy may be updated from time to time. Any update will be published at this URL with a revised “Last updated” date.
+    </p>
+
+    <h2>10. Contact Information</h2>
+    <p>
+        For privacy-related questions, contact: <a href="mailto:mokanai.dev@gmail.com">privacy@mokan.ai</a>
+    </p>
+</body>
+</html>
